@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./2048.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
   <body>
     <div class="table">
@@ -43,6 +44,26 @@
           <td id="31"></td>
           <td id="32"></td>
           <td id="33"></td>
+        </tr>
+      </table>
+      <table class="button-panel">
+        <tr>
+          <td></td>
+          <td class="button">
+            <button onclick="moveDir(0);">↑</button>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="button">
+            <button onclick="moveDir(2);">←</button>
+          </td>
+          <td class="button">
+            <button onclick="moveDir(1);">↓</button>
+          </td>
+          <td class="button">
+            <button onclick="moveDir(3);">→</button>
+          </td>
         </tr>
       </table>
     </div>

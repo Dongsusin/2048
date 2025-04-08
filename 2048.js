@@ -30,7 +30,6 @@ function keyDownEventHandler(e) {
       break; //right
   }
 }
-
 // 초기 설정
 init();
 function init() {
